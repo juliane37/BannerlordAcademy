@@ -1,0 +1,12 @@
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\bin\x64\Debug\net6\Academy.deps.json
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\bin\x64\Debug\net6\Academy.dll
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\bin\x64\Debug\net6\Academy.pdb
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.csproj.AssemblyReference.cache
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.AssemblyInfoInputs.cache
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.AssemblyInfo.cs
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.csproj.CoreCompileInputs.cache
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.dll
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\refint\Academy.dll
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.pdb
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\ref\Academy.dll
