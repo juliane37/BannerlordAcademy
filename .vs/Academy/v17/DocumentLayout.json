@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jelde\\OneDrive\\Documents\\BannerlordMods\\Academy\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E12F5765-BCE5-4334-81EA-BB18135B475A}|Academy.csproj|c:\\users\\jelde\\documents\\bannerlord mods\\bannerlordacademy\\academyempirebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12F5765-BCE5-4334-81EA-BB18135B475A}|Academy.csproj|solutionrelative:academyempirebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12F5765-BCE5-4334-81EA-BB18135B475A}|Academy.csproj|c:\\users\\jelde\\documents\\bannerlord mods\\bannerlordacademy\\academyempiremissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12F5765-BCE5-4334-81EA-BB18135B475A}|Academy.csproj|solutionrelative:academyempiremissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AcademyEmpireMissionView.cs",
+              "DocumentMoniker": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\AcademyEmpireMissionView.cs",
+              "RelativeDocumentMoniker": "AcademyEmpireMissionView.cs",
+              "ToolTip": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\AcademyEmpireMissionView.cs",
+              "RelativeToolTip": "AcademyEmpireMissionView.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwCgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:27:22.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AcademyEmpireBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\AcademyEmpireBehavior.cs",
+              "RelativeDocumentMoniker": "AcademyEmpireBehavior.cs",
+              "ToolTip": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\AcademyEmpireBehavior.cs",
+              "RelativeToolTip": "AcademyEmpireBehavior.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAASwKAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:11:26.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

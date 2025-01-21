@@ -8,3 +8,13 @@ C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Ac
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.dll
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.pdb
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.sourcelink.json
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\bin\x64\Debug\net472\Academy.dll
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\bin\x64\Debug\net472\Academy.pdb
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.csproj.AssemblyReference.cache
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.AssemblyInfoInputs.cache
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.AssemblyInfo.cs
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.csproj.CoreCompileInputs.cache
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.sourcelink.json
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.dll
+C:\Users\jelde\Documents\Bannerlord Mods\BannerlordAcademy\obj\x64\Debug\net472\Academy.pdb

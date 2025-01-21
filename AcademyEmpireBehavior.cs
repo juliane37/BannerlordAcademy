@@ -74,7 +74,8 @@ namespace Academy
                     "Yes, I am looking for a way to train my troops, can you help?",
                     null, () =>
                     {
-                        customPriceOffer(starter);
+                        customPriceOffer(starter, getUpgradeCost(), "academy_master_training_", "academy_master_training_request", "academy_master_training_offer",
+                            new TextObject("I can train your troops, but it's not free. Based on the quality and number of troops, it will cost you {AMOUNT}."));
                     });
 
 
@@ -120,23 +121,19 @@ namespace Academy
         }
 
         int customOfferCounter = 0;
-        private void customPriceOffer(CampaignGameStarter starter)
+        private void customPriceOffer(CampaignGameStarter starter, int customPrice, string IDprefix, string requestID, string offerID, TextObject textObject)
         {
             customOfferCounter++;
 
-            string convoID = "academy_master_training_" + customOfferCounter;
-            string requestID = "academy_master_training_request";
-            string offerID = "academy_master_training_offer";
-
-            TextObject textObject = new TextObject("I can train your troops, but it's not free. Based on the quality and number of troops, it will cost you {AMOUNT}.");
-            textObject.SetTextVariable("AMOUNT", getUpgradeCost().ToString());
+            string convoID = IDprefix + customOfferCounter;
+            textObject.SetTextVariable("AMOUNT", customPrice.ToString());
 
             starter.AddDialogLine(
                     convoID, // ID of the dialog
                     requestID, // Input state
                     offerID, // Output state
                     textObject.ToString(),
-                    () => CharacterObject.OneToOneConversationCharacter == academyMaster && getUpgradeCost() > 0 && ("academy_master_training_" + customOfferCounter) == convoID, // Condition for this dialogue
+                    () => CharacterObject.OneToOneConversationCharacter == academyMaster && customPrice > 0 && (IDprefix + customOfferCounter) == convoID, // Condition for this dialogue
                     null);
             
         }
@@ -154,11 +151,12 @@ namespace Academy
                 if (!(soldier.Character.IsHero))
                 {
                     //InformationManager.DisplayMessage(new InformationMessage(
-                        //String.Format("Soldier: {0}, Tier: {1}, Level {2}", soldier.Character.Name, soldier.Character.Tier, soldier.Character.Level)));
+                    //String.Format("Soldier: {0}, Tier: {1}, Level {2}", soldier.Character.Name, soldier.Character.Tier, soldier.Character.Level)));
                     // Non hero soldier slot
-                    
-                    var numberOfSoldiers = soldier.Number;
-                    var costToUpgrade = (100 + (75 * soldier.Character.Tier)) * numberOfSoldiers;
+                    var xpToLevel = soldier.Character.GetUpgradeXpCost(MobileParty.MainParty.Party, i);
+                    var inexperiencedSoldiers = soldier.Number - (soldier.Xp / xpToLevel);
+
+                    var costToUpgrade = (100 + (75 * soldier.Character.Tier)) * inexperiencedSoldiers;
                     totalUpgradeCost += costToUpgrade;
                 }
             }

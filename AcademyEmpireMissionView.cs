@@ -29,8 +29,22 @@ namespace Academy
             InformationManager.DisplayMessage(new InformationMessage("Hello world"));
             // This is just a placeholder function
             // Check mission mode is a battle or stealth
-            if (!(Mission.Mode is MissionMode.Battle or MissionMode.Stealth)) return;
+            //if (!(Mission.Mode is MissionMode.Battle or MissionMode.Stealth)) return;
 
+            // Add Xp for testing
+            var OurRoster = MobileParty.MainParty.MemberRoster.GetTroopRoster();
+
+            
+            for (int i = 0; i < OurRoster.Count; i++)
+            {
+                var soldier = OurRoster[i];
+                if (!soldier.Character.IsHero)
+                {
+                    MobileParty.MainParty.MemberRoster.AddXpToTroop(10, soldier.Character);
+                }
+                
+            }
+            /*
             // Check we have a masters robe
             var itemRoster = MobileParty.MainParty.ItemRoster;
             var masterRobe = MBObjectManager.Instance.GetObject<ItemObject>("master_robe");
@@ -50,6 +64,7 @@ namespace Academy
             }
             Mission.MainAgent.Health += 20;
             InformationManager.DisplayMessage(new InformationMessage(String.Format("Thanks for returning the robe. Here is {0} health!", Mission.MainAgent.Health - oldHealth)));
+            */
 
         }
     }

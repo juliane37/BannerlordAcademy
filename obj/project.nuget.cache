@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iU6IhGubzE=",
+  "dgSpecHash": "tSKfUalUgLY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jelde\\OneDrive\\Documents\\BannerlordMods\\Academy\\Academy.csproj",
+  "projectFilePath": "C:\\Users\\jelde\\Documents\\Bannerlord Mods\\BannerlordAcademy\\Academy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jelde\\.nuget\\packages\\bannerlord.buildresources\\1.1.0.104\\bannerlord.buildresources.1.1.0.104.nupkg.sha512",
     "C:\\Users\\jelde\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512",
