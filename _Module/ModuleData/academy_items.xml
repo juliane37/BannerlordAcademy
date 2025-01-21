@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Item
+		id="master_robe"
+		name="A Masters Robe"
+		mesh="empire_outfit_a"
+		culture="Culture.empire"
+		weight="0.9"
+		appearance="1"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="8"
+				leg_armor="3"
+				arm_armor="4"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="cloth_unarmoured"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			Civilian="true"
+			UseTeamColor="true" />
+	</Item>
+</Items>

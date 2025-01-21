@@ -7,3 +7,4 @@ C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Ac
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.csproj.CoreCompileInputs.cache
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.dll
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.pdb
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net472\Academy.sourcelink.json

@@ -10,3 +10,4 @@ C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Acad
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\refint\Academy.dll
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.pdb
 C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\ref\Academy.dll
+C:\Users\jelde\OneDrive\Documents\BannerlordMods\Academy\obj\x64\Debug\net6\Academy.sourcelink.json
